@@ -1,0 +1,87 @@
+.father{
+    width:1178px;
+    margin:0 auto;
+}
+
+/*  每款产品所占空间 */
+.no{
+    width:290px;
+    min-height: 440px;
+    float: left;
+    padding-bottom: 20px;
+    border:10px solid #fff;
+    margin:0 6px 0 6px;
+}
+
+/* 产品所占空间  */
+ul.goods_box{
+    display: block;
+    width: 270px;
+    background: #fff;
+    height: auto;
+    padding-bottom: 20px;
+    min-height: 440px;
+    margin:0;
+}
+
+/*  字体 图片 产品名字 描述 样式 */
+ul a img{
+    width: 270px;
+    height: 270px;
+    text-align:center;
+}
+ul a.name li{
+    width: 270px;
+    height: 24px;
+    white-space: nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    color:#000;
+    line-height:24px;
+    text-align:center;
+    margin-top:25px;
+    font-size:12px;
+}
+ul a.desc li{
+    width: 270px;
+    height: 48px;
+    font-size:13px;
+    color:#000;
+    text-align:center;
+    line-height:23px;
+}
+ul li.price{
+    width: 270px;
+    height: 24px;
+    line-height:24px;
+    text-align:center;
+    color:#ddac74;
+    cursor:text;
+}
+ul a.name li:hover,ul a.desc li:hover{
+    color:#ddac74;   
+}
+a:hover{
+    text-decoration:none;
+}
+.no:hover{
+    border:10px solid #ddd;
+}
+
+
+@media screen and (max-width:1230px){
+    .father{
+        width: 876px;
+        margin:0 auto;
+    }
+}
+@media screen and (max-width:942px){
+    .father{
+        width:574px;
+    }
+}
+@media screen and (max-width:662px){
+    .father{
+        width: 274px;
+    }
+}

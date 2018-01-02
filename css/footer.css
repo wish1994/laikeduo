@@ -1,0 +1,232 @@
+#footer *{
+	color: white;
+}
+
+p{
+	margin: 0;
+}
+a:hover{
+	text-decoration: none;
+}
+/* 右边菜单 */
+#right-box{
+	width: 38px;
+	height: 166px;
+	position: fixed;
+	right: 0;
+	bottom: 60px;
+	z-index: 100;
+}
+#right-box div{
+	width: 38px;
+	height: 40px;
+	margin-bottom: 2px;
+	background-color: rgba(50,50,50,0.6);
+	border-radius: 8px 0 0 8px;
+	background-image: url("../img/index.png");
+	background-repeat: no-repeat;
+}
+#right-box div:hover{
+	background-color: #c69c6d;
+}
+#right-box .kefu{
+	background-position: 3px -257px;
+	background-size: 480px 320px;
+}
+
+#right-box .weixin{
+	background-position: -473px 0;
+}
+#right-box .weixin:hover{
+	background-position: -473px -47px;
+}
+#right-box .tel{
+	background-image: url("../img/tel.png");
+	background-position: 12px 12px;
+}
+#right-box .tel:hover{
+	background-position: 12px -16px;
+}
+#right-box .toTop{
+	background-position: -404px 0;
+}
+#right-box .toTop:hover{
+	background-position: -398px -47px;
+}
+
+
+/* 底部样式 */
+footer #footer{
+	margin-top: 50px;
+	background: #fbfdfe;
+	border-top: #ededed 1px solid;
+}
+footer #logo img{
+	display: block;
+	margin: auto;
+}
+
+footer .box{
+	padding-left: 50px;
+}
+footer .box .pic{
+	background: url("../img/icon.png") no-repeat;
+	width: 56px;
+	height: 60px;
+	margin-right: 20px;
+}
+footer .box > *{
+	float: left;
+}
+footer .box1 .pic{
+	background-position: 0 -355px;
+}
+footer .chinese{
+	margin-top: 5px;
+	height: 24px;
+	line-height: 24px;
+	font-size: 14px;
+	color: #737373;
+}
+footer .english{
+	font-size: 13px;
+	line-height: 22px;
+	color: #cccccc;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+footer .box2 .pic{
+	background-position: -153px -217px;;
+}
+footer .box3 .pic{
+	background-position: -57px -353px;
+}
+footer .box4 .pic{
+	background-position: -114px -353px;
+}
+footer .row1{
+	margin-bottom: 50px;
+	margin-top: 30px;
+}
+
+footer #end{
+	padding-top: 165px;
+	height: 350px;
+	background-image: url("../img/footer_bg.jpg");
+	background-position: 0 -250px;
+}
+footer #end .download{
+	height: 44px;
+	background: url("../img/icon.png") no-repeat;
+	background-position: -175px 0;
+	color: #5c5c5c;
+	font-size: 14px;
+	letter-spacing: 2px;
+	margin-bottom: 40px;
+}
+footer #end .download p{
+	margin: 0 0 0 40px;
+}
+footer #detail{
+	width: 80%;
+	margin: auto;
+} 
+
+footer #end .download .download-code{
+	width: 235px;
+	height: 120px;
+	position: absolute;
+	top: -130px;
+	left: 0;
+	background: #ffffff;
+	display: none;
+}
+footer #end .download .download-code *{
+	color: #333333;
+}
+#end .download .download-code dl{
+	float: left;
+}
+footer #end .download .download-code dl.android{
+	padding-left: 20px;
+}
+footer #end .download-code dt{
+	height: 95px;
+	width: 98px;
+}
+footer #end .download-code dl.iPhone dt{
+	border-right: #d9d9d9 1px solid;
+	background: url("../img/icon.png") no-repeat;
+	background-position: -99px -47px;
+	padding-right: 20px;
+}
+
+footer #end .download-code dl.android dt{
+	background: url("../img/icon.png") no-repeat;
+	background-position: 0 -47px;
+}
+footer #end .download #text-right{
+	width: 130px;
+	height: 80px;
+	cursor: pointer;
+	float: left;
+}
+footer #end .download #text-right:hover + div{
+	display: block;
+}
+#end .download #text-right:hover p{
+	color: goldenrod;
+}
+
+
+footer #footer #end #detail .friend-link{
+	float: left;
+	width: 90px;
+	height: 20px;
+}
+
+footer .clear-float{
+	clear: both;
+}
+footer #address{
+	letter-spacing: 3px;
+}
+@media screen and(max-width: 474px){
+	footer #address{
+		display: none;
+	}
+}
+footer #contact{
+	height: 30px;
+	float: right;
+}
+
+footer #contact li{
+	display: block;
+	float: right;
+	margin-left: 27px;
+	height: 20px;
+	opacity: 0.2;
+	background: url("../img/icon.png") no-repeat;
+}
+
+footer #contact li.douban{
+	width: 18px;
+	background-position: -129px -25px;
+	overflow: hidden;
+}
+
+footer #contact li.sina{
+	width: 23px;
+	background-position: -150px -23px;
+	overflow: hidden;
+}
+
+footer #contact li.weixin{
+	width: 26px;
+	background-position: -100px -23px;
+}
+
+footer #contact li:hover{
+	opacity: 1;
+}
+

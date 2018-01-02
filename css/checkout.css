@@ -1,0 +1,172 @@
+a:focus , a:hover{
+	color: #23527c;
+	text-decoration: underline;
+}
+
+section{
+	margin: 50px 0 0 0;
+}
+
+/* 订单页上面部分 */
+.shopHeader{
+	padding: 20px 0 50px;
+}
+
+.shopHeader .col-md-4{
+	padding: 0 20px;
+}
+.shopHeader .wrap-order{
+	border: 1px solid #eeeeee;
+	margin: 20px 0;
+	padding: 10px;
+	position: relative;
+}
+.shopHeader .num{
+	float: left;
+	font-size: 28px;
+	margin: 8px 15px 0;
+}
+#shopHeader a:hover{
+	text-decoration: none;
+}
+.shoppingCart:hover{
+	text-decoration: none;
+}
+
+.shopHeader .wrap-order h3{
+	font-size: 22px;
+	margin: 0 0 5px;
+	color: #888888;
+	margin: 15px 0;
+}
+
+.shopHeader .wrap-order i{
+	position: absolute;
+	top: 15px;
+	right: 20px;
+	width: 40px;
+	height: 40px;
+	padding: 8px;
+	color: #c4c4c4;
+	font-size: 20px;
+	text-align: center;
+	display: inline-block;
+	border: 2px dashed #cccccc;
+	border-radius: 50%;
+}
+.shopHeader .step{
+	position: absolute;
+	top: 15px;
+	right: 0;
+	width: 80px;
+	height: 40px;
+	padding: 8px;
+}
+.shopHeader .wrap-order.active{
+	background-color: rgb(64,223,205);
+	border-color: transparent;
+}
+.shopHeader .wrap-order.active h3{
+	color: #ffffff;
+}
+.shopHeader .wrap-order.active .num{
+	color: #ffffff;
+}
+.shopHeader .wrap-order.active i{
+	color: #ffffff;
+	border-color: #ffffff;
+}
+.shopHeader .btn:hover{
+	background-color: goldenrod;
+}
+
+
+
+.address .container{
+	width: 80%;
+}
+.container .add-address,.container .delivery-time,.container .pay-type{
+    height:40px;
+    width: 100%;
+    background-color:#eceae8;
+    line-height:40px;
+    font-size:15px;
+	padding-left:15px;
+	margin-bottom:5px;
+}
+
+.container .address-check,.container .time-box,.container .pay-box{
+    border: #e5e5e5 solid 1px;
+    padding: 20px;
+}
+
+.container input.keep{
+	width: 94px;
+	height: 25px;
+	background-color:#f00;
+	border:none;
+	color:#fff;
+	font-size:12px;
+}
+.container input.keep:hover{
+	background-color:#d80000;
+}
+.container input.cancle{
+	width: 58px;
+	height: 25px;
+	border:none;
+	background-color:#9a9791;
+	color:#fff;
+	font-size:12px;
+}
+.container .address-box p{
+	color:#000;
+	font-size:13px;
+}
+.container .address-box p.name input{
+	width: 90px;
+}
+.container .address-box p{
+	margin:0 0 15px;
+}
+
+.container .delivery-time,.container .pay-type{
+	margin-top:20px;
+}
+
+.container .row2{
+	margin-top:15px;
+}
+.container .row2 .count{
+	width:100px;
+	height:40px;
+	background-color:#f00;
+	border-radius:5px;
+	text-align:center;
+	line-height:40px;
+	color:#fff;
+	font-size:15px;
+	float:right;
+}
+
+.detail-address-box{
+	border: #e5e5e5 solid 1px;
+	padding: 20px;
+	margin-bottom:20px;
+}
+
+.active{
+	background-color:orange;
+}
+.detail-address .item-check{
+	border:1px solid #ddd;
+}
+.detail-address .selected{
+	background: orange;
+}
+.item-check .remove{
+	width: 30px;
+	background-color:#f00;
+	color:#fff;
+	border-radius:2px;
+}

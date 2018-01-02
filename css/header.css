@@ -1,0 +1,221 @@
+header a{
+	text-decoration: none;
+	color: #333333;
+}
+header a:hover{
+	color: goldenrod;
+	text-decoration: none;
+}
+
+header #top{
+	width: 100%;
+	height: 30px;
+	background: #eeeeee;
+}
+header #logo{
+	vertical-align: top;
+}
+header #top #tLeft{
+	float: left;
+	width: 300px;
+	height: 100%;
+	line-height: 30px;
+	margin-left: 50px;
+}
+header #tLeft #tel{
+	display: inline-block;
+	position: relative;
+	top: 5px;
+	width: 20px;
+	height: 20px;
+	background: url("../img/tel.png") no-repeat;
+}
+
+header #tRight{
+	float: right;
+	width: 160px;
+	height: 100%;
+	margin-top: 5px;
+	font-size: 13px;
+}
+header #tRight a:hover{
+	color: goldenrod;
+}
+header #order{
+	float: right;
+	margin-top: 5px;
+	font-size: 13px;
+	margin-right: 50px;
+}
+header #tRight button{
+	border: 1px solid #999999;
+	border-radius: 4px;
+	background: #dddddd;
+	width: 56px;
+	height: 20px;
+	color: #666666;
+}
+header #tRight button:hover{
+	background: red;
+	color: white;
+}
+header #search-col{
+	padding-top: 15px;
+}
+
+header #search-box{
+	width: 80%;
+	height: 40px;
+}
+header #search{
+	float: left;
+	width: 80%;
+	height: 40px;
+	border: 2px solid goldenrod;
+	font-size: 14px;
+	padding-left: 5px;
+}
+header #search-box #searchBtn{
+	display: block;
+	float: left;
+	width: 20%;
+	height: 40px;
+	background: goldenrod;
+	color: white;
+	font: 18px/40px simsun,arail;
+	text-align: center;
+	cursor: pointer;
+}
+header #search-col .sText{
+	font-size: 13px;
+	color: #999999;
+	margin-right: 20px;
+	cursor: pointer;
+}
+header #search-col div:nth-child(2){
+	margin-top: 8px;
+}
+header #search-col .sText:hover{
+	color: red;
+}
+
+/* 购物车 */
+header #cart{
+	width: 140px;
+	height: 38px;
+	line-height: 32px;
+	text-indent: 10px;
+	border: 1px solid #cccccc;
+	box-shadow: 0 0 2px rgba(0,0,0,0.2);
+	margin-left: 100px;
+	margin-top: 20px;
+	cursor: pointer;
+}
+header #cartbox{
+	position: absolute;
+	border: 1px solid #dddddd;
+	top: 58px;
+	left: 152px;
+	min-width: 160px;
+	max-width: 200px;
+	min-height: 10px;
+	box-shadow: 0 6px 12px rgba(0,0,0,0.175);
+	display: none;
+	z-index: 99;
+	background: white;
+}
+header #cart > span{
+	margin-left: 5px;
+}
+header #cart span span{
+	color: red;
+}
+header #cartbox img{
+	width: 50px;
+	height: 50px;
+	margin-left: 10px;
+}
+header #cartbox img:nth-child(1){
+	margin-top: 5px;
+}
+header #cart:hover + #cartbox{
+	display: block;
+}
+header #cartbox:hover{
+	display: block;
+}
+header #cartbox p{
+	font: 12px yahei,arail;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	columns: #333333;
+}
+
+
+header .navagition{
+	text-align: center;
+	background: url("http://www.5lux.com/vendor/images/v30/navi_1pxbg.png") repeat-x;
+	border: none;
+	margin-top: 35px;
+	height: 38px;
+	box-sizing: content-box;
+	text-align: center;
+}
+header .navbar{
+	min-height: 38px!important;
+}
+header .nav-toggle{
+	display: none;
+}
+header .nav-toggle span.glyphicon-menu-hamburger{
+	line-height: 38px;
+	position: absolute;
+	top: 0;
+	left: 50%;
+}
+header .navagition .navstyle{
+	height: 38px;
+}
+header .navagition .navstyle > li{
+	list-style: none;
+	display: inline-block;
+	position: relative;
+	float: none;
+}
+header .navagition .navstyle > li a{
+	line-height: 38px;
+}
+
+@media screen and (min-width: 768px){
+	header .navagition .navstyle > li > a:hover{
+		color: white;
+		background-color: transparent;
+	}
+}
+@media screen and (max-width: 768px){
+	header .navagition .navstyle > li > a:hover{
+		color: white;
+		background-color: darkorange;
+	}
+}
+header .navagition .navstyle > li.nav-current a{
+	background: red;
+	color: white;
+}
+header .navagition .navstyle > li.nav-current a:hover{
+	background: red;
+	color: white;
+}
+
+header .navagition .navstyle > li > a{
+	color: goldenrod;
+	padding: 0 21px;
+	border-radius: 2px;
+}
+
+
+header .navagition .navstyle > li > a:focus{
+	color: rgb(230, 126, 34);
+	background-color: transparent;
+}

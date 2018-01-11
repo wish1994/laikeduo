@@ -3,7 +3,7 @@ var url = location.search.substr(1);
 var goodsName = url.split("=")[1];
 goodsName =decodeURI(goodsName);
 
-
+$('header #search').attr('placeholder',goodsName);
 $.ajax({
     "url":"http://h6.duchengjiu.top/shop/api_goods.php",
     "type":"GET",
